@@ -212,6 +212,8 @@ h5 {
 }
 
 .input-button {
+    border-radius: 4px;
+    padding: 4px;
     border: 1px solid grey;
     background-color: #00ffff31;
 }
@@ -247,4 +249,9 @@ h5 {
 
 #kinaamdibo {
     color: antiquewhite;
+}
+
+.new-class {
+    border-radius: 5px;
+    padding: 4px;
 }
