@@ -44,6 +44,7 @@ body {
 }
 
 .container-ii {
+    margin-top: 150px;
     padding: auto;
     text-align: center;
 }
@@ -69,4 +70,11 @@ h2 {
 .tokens {
     justify-content: center;
     display: flex;
+}
+
+.width-controller {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    text-align: center;
 }
