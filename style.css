@@ -213,5 +213,38 @@ h5 {
 
 .input-button {
     border: 1px solid grey;
-    background-color: rgba(0, 255, 255, 0.192);
+    background-color: #00ffff31;
+}
+
+.flex-last {
+    display: flex;
+}
+
+#regi-text {
+    padding-top: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgba(25, 25, 201, 0.808);
+}
+
+.button-link-prime-last {
+    border: solid 3px #00ffff6c;
+    border-radius: 6px;
+    padding: 12px 10px;
+    font-size: larger;
+    color: #00ffff6c;
+    text-align: center;
+    text-decoration: none;
+}
+
+#color-mod {
+    color: rgb(178, 249, 252);
+}
+
+#color-change {
+    color: aliceblue;
+}
+
+#kinaamdibo {
+    color: antiquewhite;
 }
