@@ -128,3 +128,12 @@ h4 {
 .card-text {
     font-size: 16px;
 }
+
+.blog-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.blog-post {
+    width: 550px;
+}
