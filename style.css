@@ -4,10 +4,10 @@ body {
 }
 
 .intro-heading {
-    font-size: 70px;
+    font-weight: 900;
+    font-size: 90px;
     text-align: center;
     color: white;
-    padding: 12px;
     margin: 0;
 }
 
@@ -22,16 +22,15 @@ body {
     border-radius: 6px;
     margin: 10px;
     padding: 30px 30px;
-    background-color: rgb(12, 187, 187);
-    font-size: larger;
-    color: bisque;
+    background-color: rgba(12, 187, 187, 0.548);
+    color: rgb(20, 18, 16);
     text-align: center;
     text-decoration: none;
 }
 
 .landing-page-container {
     text-align: center;
-    background-color: rgba(3, 71, 71, 0.281);
+    background-color: rgba(3, 71, 71, 0.336);
     padding-top: 250px;
     padding-bottom: 250px;
 }
@@ -43,7 +42,7 @@ body {
 }
 
 .container-ii {
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     margin-top: 150px;
     padding: auto;
     text-align: center;
@@ -60,7 +59,7 @@ h2 {
 .button-link-prime {
     border-radius: 6px;
     padding: 12px 10px;
-    background-color: rgb(12, 187, 187);
+    background-color: rgba(12, 187, 187, 0.699);
     font-size: larger;
     color: bisque;
     text-align: center;
@@ -68,7 +67,7 @@ h2 {
 }
 
 .tokens {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 20px;
     justify-content: center;
     display: flex;
@@ -97,7 +96,7 @@ p {
 .card-flex {
     margin-left: auto;
     margin-right: auto;
-    width: 900px;
+    width: 950px;
     display: flex;
 }
 
@@ -105,10 +104,10 @@ p {
     border-radius: 6px;
     margin-left: 10px;
     margin-right: 10px;
-    padding-top: 15px;
+    padding-top: 20px;
     padding-left: 5px;
     padding-right: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
     background-color: antiquewhite;
 }
 
@@ -121,7 +120,8 @@ p {
 }
 
 h4 {
-    font-size: 21px;
+    margin-bottom: 15px;
+    font-size: 20px;
     color: grey;
 }
 
@@ -130,16 +130,20 @@ h4 {
 }
 
 .blog-flex {
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     justify-content: center;
 }
 
 .blog-post {
-    margin: 35px;
-    width: 550px;
+    margin: 15px;
+    width: 30%;
 }
 
 .blog-post-section {
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 50px;
 }
 
@@ -175,11 +179,39 @@ h5 {
     color: white;
 }
 
-input {
+/* input {
+    padding-bottom: 5px;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 800px;
+    border: 0;
+    border-bottom: 1px solid grey;
+} */
+
+.mod-button-color {
+    background-color: rgba(82, 240, 240, 0.767);
+}
+
+#hovered {
+    color: bisque;
+    border-style: solid;
+}
+
+.resizing-img {
     border-radius: 6px;
-    margin-bottom: 20px;
-    padding: 10px;
-    padding-right: 25px;
-    padding-left: 25px;
-    border: 2px solid rgba(128, 128, 128, 0.199);
+    width: 90%;
+}
+
+.cash-amount {
+    padding-bottom: 5px;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 800px;
+    border: 0;
+    border-bottom: 1px solid grey;
+}
+
+.input-button {
+    border: 1px solid grey;
+    background-color: rgba(0, 255, 255, 0.192);
 }
