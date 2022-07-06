@@ -212,9 +212,10 @@ h5 {
 }
 
 .input-button {
+    margin-left: 5px;
     border-radius: 4px;
-    padding: 4px;
-    border: 1px solid grey;
+    padding: 6px;
+    border: 1px solid rgba(128, 128, 128, 0.192);
     background-color: #00ffff31;
 }
 
@@ -252,6 +253,7 @@ h5 {
 }
 
 .new-class {
+    border: 1px grey solid;
     border-radius: 5px;
-    padding: 4px;
+    padding: 6px;
 }
