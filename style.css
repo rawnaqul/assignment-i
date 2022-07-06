@@ -160,11 +160,17 @@ h4 {
 }
 
 footer {
-    margin: 0;
-    background-color: grey;
+    padding: 10px;
+    background-color: rgb(73, 71, 71);
     text-align: center;
 }
 
-#override-h3 {
-    margin: 0;
+h5 {
+    margin-top: 15px;
+    font-size: 30px;
+    color: #FF5959;
+}
+
+.color-xyz {
+    color: white;
 }
